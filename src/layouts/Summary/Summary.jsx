@@ -16,7 +16,7 @@ function Summary() {
             <h3 className="title">DuH Nunes</h3>
             <h2 className="profession">FrontEnd Developer</h2>
           </section>
-          <p className="summary-text">Minha entrada nessa jornada de <span className="frontend">FrontEnd</span> começou lá atrás em <i>2007</i> com o antigo <b><i>BlogSpot</i></b>. Nele eu aprendi o básico de html e css para customização de sites.
+          <p className="summary-text">Minha entrada nessa jornada de <span className="frontend">FrontEnd</span> começou lá atrás em <i>2007</i> com o antigo <b><i>BlogSpot</i></b>. Nele eu aprendi o básico customização e criação de sites.
           </p>
           
           <p className="summary-text">
