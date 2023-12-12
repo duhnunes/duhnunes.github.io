@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './Skills.css';
-import TitlePage from '../TitlePage/TitlePage';
+import TitlePage from '../../Components/TitlePage/TitlePage';
 
 // Icons
 import { FaHtml5 } from 'react-icons/fa';

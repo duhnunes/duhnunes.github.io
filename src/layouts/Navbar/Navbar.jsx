@@ -27,13 +27,13 @@ function Navbar() {
           <a href="#history" className="nav-icon">
             <PiAddressBookFill />
           </a>
-          <span className="nav-text">History</span>
+          <span className="nav-text">About</span>
         </li>
         <li className="nav-item">
           <a href="#changelog" className="nav-icon">
             <AiFillCode />
           </a>
-          <span className="nav-text">Changelog</span>
+          <span className="nav-text">Features</span>
         </li>
       </ul>
     </nav>

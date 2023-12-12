@@ -1,8 +1,8 @@
 import React from 'react';
 
 import './Projects.css';
-import TitlePage from '../TitlePage/TitlePage';
-import Carousel from '../Carousel/Carousel';
+import TitlePage from '../../Components/TitlePage/TitlePage';
+import Carousel from '../../Components/Carousel/Carousel';
 
 function Projects() {
   return(

@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './Changelog.css';
-import TitlePage from '../TitlePage/TitlePage';
+import TitlePage from '../../Components/TitlePage/TitlePage';
 
 function Changelog() {
   return(
