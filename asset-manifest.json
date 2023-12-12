@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/duhnunes.github.io/static/css/main.e6c13ad2.css",
+    "main.js": "/duhnunes.github.io/static/js/main.167726d4.js",
+    "index.html": "/duhnunes.github.io/index.html",
+    "main.e6c13ad2.css.map": "/duhnunes.github.io/static/css/main.e6c13ad2.css.map",
+    "main.167726d4.js.map": "/duhnunes.github.io/static/js/main.167726d4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.167726d4.js"
+  ]
+}
