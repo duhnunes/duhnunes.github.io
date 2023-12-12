@@ -1,0 +1,20 @@
+.title-page{
+  position:sticky;
+  top:0;
+  text-align:center;
+  color:var(--dh-white);
+  font-size:2.6rem;
+  text-transform:uppercase;
+  text-shadow:0 2px 2px rgba(13 109 253 / .8),
+  0 5px 5px rgba(13 109 253 / .4);
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
+  z-index:1;
+}
+.container-titlePage{
+  position:absolute;
+  width:100%;
+  top:80px;
+}

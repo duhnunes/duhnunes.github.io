@@ -1,0 +1,44 @@
+.changelog{
+  padding-top:140px;
+  padding-bottom:140px;
+}
+
+.log-area{
+  width:100%;
+  height:500px;
+  box-shadow:0 10px 30px -10px rgba(13 109 253 / .6),
+  0 12px 25px -10px rgba(13 109 253 / .3),
+  0 14px 20px -10px rgba(13 109 253 / .1),
+  0 10px 10px -10px rgba(255 255 255 /.4);
+  resize:none;
+  background-color:var(--dh-dgray);
+  color:var(--dh-light);
+  padding:18px;
+  border-radius:var(--dh-border-small);
+  overflow:auto;
+}
+.log-box{
+  padding:10px 0;
+}
+.title{
+  list-style:none;
+}
+.log-item{
+  padding-left:10px;
+  list-style-position:inside;
+  position:relative;
+}
+
+.log-item::before{
+  content:'';
+  background-color:var(--dh-light);
+  height:16px;
+  width:3px;
+  position:absolute;
+  left:11px;
+  top:11px;
+}
+.log-item:last-child::before{
+  content:'';
+  height:0;
+}

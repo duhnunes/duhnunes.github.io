@@ -1,0 +1,69 @@
+.card{
+  scroll-snap-align:start;
+  border-radius:var(--dh-border-big);
+  height:18.75rem;
+  width:15.9375rem;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background-color:var(--dh-dgray);
+  transition:.25s ease;
+  position:relative;
+  overflow:hidden;
+}
+.lines{
+  position:absolute;
+  inset:0;
+  background:var(--dh-dgray);
+}
+.lines::before{
+  content:'';
+  position:absolute;
+  top:50%;
+  left:50%;
+  width:600px;
+  height:120px;
+  background:linear-gradient(transparent, var(--dh-blue), var(--dh-blue), var(--dh-blue), transparent);
+  animation:spin 4s linear infinite;
+  animation-play-state:paused;
+}
+.lines::after{
+  content:'';
+  position:absolute;
+  background-color:var(--dh-dark);
+  inset:3px;
+  border-radius:var(--dh-border-big);
+}
+
+@keyframes spin{
+  from{
+    transform:translate(-50%, -50%) rotate(0deg);
+  }
+  to{
+    transform:translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+.imgBx{
+  position:absolute;
+  inset:3px;
+  border-radius:var(--dh-border-big);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  overflow:hidden;
+}
+
+.card:hover .lines::before{
+  animation-play-state:running;
+}
+.card-img{
+  width:100%;
+  height:100%;
+}
+
+/* @media only screen and (hover:none) and (pointer: coarse){
+  .lines::before{
+    animation-play-state:running;
+  }
+} */
