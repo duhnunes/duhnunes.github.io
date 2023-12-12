@@ -80,3 +80,9 @@ img{
   min-width:100%;
   padding:0 80px;
 }
+
+@media (max-width:750px){
+  .container{
+    padding:0 40px;
+  }
+}

@@ -12,6 +12,7 @@
   animation: shadow 4s linear infinite;
   z-index:2;
   overflow:hidden;
+  transition:.25s ease;
 }
 .navbar>ul{
   list-style:none;
