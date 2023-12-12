@@ -1,6 +1,6 @@
 import React from 'react';
 
-import card1 from '../Cards/Card';
+import card1 from '../../assets/img/loginblur.png';
 import './Carousel.css';
 import Card from '../Cards/Card';
 import BtnCarousel from '../Button/BtnCarousel';

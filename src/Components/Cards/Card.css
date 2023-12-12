@@ -62,8 +62,8 @@
   height:100%;
 }
 
-/* @media only screen and (hover:none) and (pointer: coarse){
+@media only screen and (hover:none) and (pointer: coarse){
   .lines::before{
     animation-play-state:running;
   }
-} */
+}

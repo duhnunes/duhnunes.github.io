@@ -39,7 +39,6 @@
   padding:0;
   box-sizing:border-box;
   font-family:'Montserrat', sans-serif;
-  transition:.25s ease;
 }
 
 html{
@@ -65,6 +64,10 @@ body{
 }
 ::-webkit-scrollbar-thumb:hover{
   background:rgba(13 109 253 / .7);
+}
+
+img{
+  transition:.25s ease-in-out;
 }
 
 /* SETTINGS */

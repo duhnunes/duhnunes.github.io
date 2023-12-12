@@ -26,14 +26,14 @@
   display:flex;
   align-items:center;
   justify-content:center;
-  flex-direction:column-reverse;
+  height:100%;
   width:100%;
 }
 .nav-icon{
   font-size:2rem;
   position:absolute;
   color:var(--dh-dgray);
-  transition:.35s ease;
+  transition:.25s ease-in-out;
 }
 .nav-icon:hover{
   cursor:pointer;
@@ -76,5 +76,11 @@
   0 12px 25px -10px rgba(13 109 253 / .3),
   0 14px 20px -10px rgba(13 109 253 / .1),
   0 10px 10px -10px rgba(255 255 255 /.4);
+  }
+}
+
+@media (max-width:550px){
+  .navbar{
+    width:90%;
   }
 }

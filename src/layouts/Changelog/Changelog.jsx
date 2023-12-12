@@ -9,6 +9,19 @@ function Changelog() {
       <TitlePage title="Changelog" />
       <div className="container changelog">
         <div className="log-area">
+          {/* 2.1.1 */}
+          <ul className="log-box">
+            <li className="title">
+              <h2>2.1.1</h2>
+            </li>
+            <li className="log-item">Improve Semantic Html</li>
+            <li className="log-item">Navbar Fix Position</li>
+            <li className="log-item">Navbar Fix Animation</li>
+            <li className="log-item">Summary Fix Position</li>
+            <li className="log-item">Otimizations for Mobile</li>
+            <li className="log-item">Card Animation without hover for Mobile</li>
+            <li className="log-item">Navbar Optimized for Mobile</li>
+          </ul>
           {/* 2.1 */}
           <ul className="log-box">
             <li className="title">
@@ -16,9 +29,8 @@ function Changelog() {
             </li>
             <li className="log-item">Footer</li>
             <li className="log-item">Animated Cards</li>
-            <li className="log-item">Same otimization for mobile phone</li>
+            <li className="log-item">Same otimization for mobile phone in Summary</li>
             <li className="log-item">Same customization for list style Changelog</li>
-            <li className="log-item">Release in Github [WIP]</li>
           </ul>
 
           {/* 2.0 */}

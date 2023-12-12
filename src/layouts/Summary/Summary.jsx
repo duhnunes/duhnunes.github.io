@@ -12,10 +12,10 @@ function Summary() {
       <TitlePage title="Summary" />
       <div className="summary">
         <article className="summary__text-area">
-          <div className="title-area">
+          <section className="title-area">
             <h3 className="title">DuH Nunes</h3>
             <h2 className="profession">FrontEnd Developer</h2>
-          </div>
+          </section>
           <p className="summary-text">Minha entrada nessa jornada de <span className="frontend">FrontEnd</span> começou lá atrás em <i>2007</i> com o antigo <b><i>BlogSpot</i></b>. Nele eu aprendi o básico de html e css para customização de sites.
           </p>
           
