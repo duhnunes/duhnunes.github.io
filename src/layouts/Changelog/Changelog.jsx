@@ -21,6 +21,7 @@ function Changelog() {
             <li className="log-item">Otimizations for Mobile</li>
             <li className="log-item">Card Animation without hover for Mobile</li>
             <li className="log-item">Navbar Optimized for Mobile</li>
+            <li className="log-item">Fix some inconsistencies with Mobile layout</li>
           </ul>
           {/* 2.1 */}
           <ul className="log-box">

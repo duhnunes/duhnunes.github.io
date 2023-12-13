@@ -17,62 +17,58 @@
 }
 
 .summary__text-area>button{
-  margin-top:60px;
+  margin-top:40px;
 }
 .title-area{
   position:relative;
-  margin-bottom:50px;
+  margin-bottom:40px;
   display:flex;
   flex-direction:column;
   top:8px;
 }
 
-.summary .title{
+.title-area .title{
   font-size:1.5rem;
-  font-weight:700;
   text-transform:uppercase;
   color:var(--dh-light);
   top:14px;
   left:3px;
-  text-align:end;
-  position:relative;
-  -webkit-user-select:none;
-  -moz-user-select:none;
-  -ms-user-select:none;
-  user-select:none;
-  transition:.25s ease;
   z-index:1;
 }
 
-.summary .profession{
-  position:relative;
+.title-area .profession{
   font-size:2.2rem;
-  font-weight:700;
-  text-align:end;
-  max-width:373px;
+  width:100%;
   color:var(--dh-blue);
   text-shadow:0 0 10px rgba(13 109 253 / .8),
   0 0 20px rgba(13 109 253 / .7),
   0 0 30px rgba(13 109 253 / .6),
   0 0 30px rgba(13 109 253 / .4),
   0 0 40px rgba(13 109 253 / .2);
-  -webkit-user-select:none;
-  -moz-user-select:none;
-  -ms-user-select:none;
-  user-select:none;
   white-space:nowrap;
-  transition:.25s ease;
 }
-.summary .profession::after{
+.title-area .profession::after{
   content:'';
-  width:90%;
+  width:345px;
   height:3px;
-  left:20px;
+  right:10px;
   margin:0 auto;
   position:absolute;
   bottom:0;
   background-color:var(--dh-blue);
   display:block;
+}
+
+.title-area .title,
+.title-area .profession{
+  font-weight:700;
+  position:relative;
+  text-align:end;
+  transition:.25s ease;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
 }
 
 .summary .summary-text{
@@ -133,7 +129,7 @@
     padding-top:0;
     margin-top:0;
   }
-  .summary .title{
+  .title-area .title{
     left:3px;
   }
   .summary-text{
@@ -141,6 +137,7 @@
   }
   .summary__text-area>button{
     width:100%;
+    margin-top:30px;
   }
 }
 
@@ -150,6 +147,9 @@
   }
   .title-area .profession{
     font-size:1.9rem;
+  }
+  .title-area .profession::after{
+    width:295px;
   }
   .summary__text-area{
     padding:0;
@@ -173,5 +173,8 @@
   }
   .title-area .profession{
     font-size:1.6rem;
+  }
+  .title-area .profession::after{
+    width:245px;
   }
 }
