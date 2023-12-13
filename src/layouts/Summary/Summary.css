@@ -1,5 +1,5 @@
 .summary{
-  padding-top:120px;
+  padding-top:80px;
   padding-bottom:70px;
   display:flex;
   justify-content:space-around;
@@ -18,6 +18,7 @@
 
 .summary__text-area>button{
   margin-top:40px;
+  transition:.25s ease;
 }
 .title-area{
   position:relative;
@@ -28,7 +29,7 @@
 }
 
 .title-area .title{
-  font-size:1.5rem;
+  font-size:1.5em;
   text-transform:uppercase;
   color:var(--dh-light);
   top:14px;
@@ -37,7 +38,7 @@
 }
 
 .title-area .profession{
-  font-size:2.2rem;
+  font-size:2.2em;
   width:100%;
   color:var(--dh-blue);
   text-shadow:0 0 10px rgba(13 109 253 / .8),
@@ -49,7 +50,7 @@
 }
 .title-area .profession::after{
   content:'';
-  width:345px;
+  width:10em;
   height:3px;
   right:10px;
   margin:0 auto;
@@ -57,6 +58,7 @@
   bottom:0;
   background-color:var(--dh-blue);
   display:block;
+  transition:.25s ease;
 }
 
 .title-area .title,
@@ -142,15 +144,6 @@
 }
 
 @media (max-width:600px){
-  .title-area .title{
-    font-size:1.31rem;
-  }
-  .title-area .profession{
-    font-size:1.9rem;
-  }
-  .title-area .profession::after{
-    width:295px;
-  }
   .summary__text-area{
     padding:0;
     margin-bottom:30px;
@@ -168,13 +161,23 @@
     margin-bottom:20px;
   }
   .title-area .title{
-    font-size:1.1rem;
     top:10px;
   }
+}
+@media (max-width:380px){
+  .title-area .title{
+    top:55px;
+    left:18px;
+  }
   .title-area .profession{
-    font-size:1.6rem;
+    white-space:wrap;
+    text-align:center;
+  }
+  .title-area{
+    align-items:center;
   }
   .title-area .profession::after{
-    width:245px;
+    width:50%;
+    right:70px;
   }
 }

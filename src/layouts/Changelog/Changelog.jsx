@@ -22,6 +22,7 @@ function Changelog() {
             <li className="log-item">Card Animation without hover for Mobile</li>
             <li className="log-item">Navbar Optimized for Mobile</li>
             <li className="log-item">Fix some inconsistencies with Mobile layout</li>
+            <li className="log-item">Font auto-resize with ViewePort</li>
           </ul>
           {/* 2.1 */}
           <ul className="log-box">
