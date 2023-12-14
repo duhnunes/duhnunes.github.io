@@ -46,8 +46,7 @@ html{
 }
 body{
   background-color:var(--dh-dark);
-  font-size:16px;
-  font-size: calc(14px + (18 - 14) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(14px + (16 - 14) * ((100vw - 300px) / (1600 - 300)));
 }
 ::-webkit-scrollbar{
   width:9px;

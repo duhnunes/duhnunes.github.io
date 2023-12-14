@@ -9,20 +9,13 @@ function Changelog() {
       <TitlePage title="Changelog" />
       <div className="container changelog">
         <div className="log-area">
-          {/* 2.1.1 */}
+          {/* 2.2.1 */}
           <ul className="log-box">
             <li className="title">
-              <h2>2.1.1</h2>
+              <h2>2.2.1</h2>
             </li>
-            <li className="log-item">Improve Semantic Html</li>
-            <li className="log-item">Navbar Fix Position</li>
-            <li className="log-item">Navbar Fix Animation</li>
-            <li className="log-item">Summary Fix Position</li>
-            <li className="log-item">Otimizations for Mobile</li>
-            <li className="log-item">Card Animation without hover for Mobile</li>
-            <li className="log-item">Navbar Optimized for Mobile</li>
-            <li className="log-item">Fix some inconsistencies with Mobile layout</li>
-            <li className="log-item">Font auto-resize with ViewePort</li>
+            <li className="log-item">Add Button to Back to Top page</li>
+            <li className="log-item">Improve design ::marker from Changelog List</li>
           </ul>
           {/* 2.1 */}
           <ul className="log-box">

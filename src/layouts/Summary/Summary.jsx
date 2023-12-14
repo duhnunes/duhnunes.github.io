@@ -16,15 +16,15 @@ function Summary() {
             <h3 className="title">DuH Nunes</h3>
             <h2 className="profession">FrontEnd Developer</h2>
           </section>
-          <p className="summary-text">Minha entrada nessa jornada de <span className="frontend">FrontEnd</span> começou lá atrás em <i>2007</i> com o antigo <b><i>BlogSpot</i></b>. Nele eu aprendi o básico customização e criação de sites.
+          <p className="summary-text">Minha entrada nessa jornada de <span className="frontend">FrontEnd</span> começou lá atrás em <i>2007</i> com o antigo <b><i>BlogSpot</i></b>. Nele eu aprendi o básico de customização e criação de sites.
           </p>
           
           <p className="summary-text">
-          Eu gostei do que eu estava fazendo com os blogs e resolvi me aprofundar com <b><i>DreamWaver</i></b>, que possibilitava construir um site e visualizar como ele estava ficando em tempo real. Os anos se passaram e eu fiz alguns sites, mas houve um grande hiato por volta de <i>2009</i> até <i>2016</i>.
+          Eu gostei do que eu estava fazendo com os blogs e resolvi me aprofundar com <b><i>DreamWeaver</i></b>, que possibilitava construir um site e visualizar como ele estava ficando em tempo real. Os anos se passaram e eu fiz alguns sites, mas houve um grande hiato por volta de <i>2009</i> até <i>2016</i>.
           </p>
 
           <p className="summary-text">
-          Em <i>2018</i>, <i>2019</i> e <i>2021</i> fiz alguns sites utilizando <b><i>BootStrap</i></b>. No final de <i>2022</i> eu resolvi focar, estudar e me dedicar em tempo integral a essa minha paixão e transformá-la em uma carreira. Hoje busco me aperfeiçoar em <span className="html">HTML</span>, <span className="css">CSS</span>, <span className="javascript">JS</span> e <span className="react">REACT</span>, para alcançar um design moderno, rápido e responsivo com essa tecnologia.
+          Em <i>2017</i> eu conheci o <b><i>BootStrap</i></b> e utilizei ele para criar alguns sites durante <i>2018</i>, <i>2019</i> e <i>2021</i>. No final de <i>2022</i> eu resolvi focar, estudar e me dedicar em tempo integral a essa minha paixão e transformá-la em uma carreira. Hoje busco me aperfeiçoar em <span className="html">HTML</span>, <span className="css">CSS</span>, <span className="javascript">JS</span> e <span className="react">REACT</span>, para alcançar um design moderno, rápido e responsivo com essas tecnologias.
           </p>
 
           <Button name="View CV" nameClass="btn btn-blue" />

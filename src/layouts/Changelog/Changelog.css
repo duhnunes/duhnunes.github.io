@@ -25,18 +25,21 @@
 }
 .log-item{
   padding-left:10px;
-  list-style-position:inside;
   position:relative;
 }
 
+.log-item::marker{
+  content:'•';
+  font-size:1.8rem;
+}
 .log-item::before{
   content:'';
   background-color:var(--dh-light);
-  height:16px;
-  width:3px;
+  height:100%;
+  width:2px;
   position:absolute;
-  left:11px;
-  top:11px;
+  left:-5px;
+  top:19px;
 }
 .log-item:last-child::before{
   content:'';
