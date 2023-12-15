@@ -5,8 +5,10 @@ import './Summary.css';
 import photo from '../../assets/img/duhnunes.jpg';
 import Button from '../../Components/Button/Button';
 import TitlePage from '../../Components/TitlePage/TitlePage';
+import { FaGithub } from 'react-icons/fa';
 
-function Summary() {
+function Summary(){
+
   return(
     <section className="container">
       <TitlePage title="Summary" />
@@ -24,10 +26,18 @@ function Summary() {
           </p>
 
           <p className="summary-text">
-          Em <i>2017</i> eu conheci o <b><i>BootStrap</i></b> e utilizei ele para criar alguns sites durante <i>2018</i>, <i>2019</i> e <i>2021</i>. No final de <i>2022</i> eu resolvi focar, estudar e me dedicar em tempo integral a essa minha paixão e transformá-la em uma carreira. Hoje busco me aperfeiçoar em <span className="html">HTML</span>, <span className="css">CSS</span>, <span className="javascript">JS</span> e <span className="react">REACT</span>, para alcançar um design moderno, rápido e responsivo com essas tecnologias.
+          Em <i>2017</i> eu conheci o <b><i>BootStrap</i></b> e utilizei ele para criar alguns sites durante <i>2018</i>, <i>2019</i> e <i>2021</i>. No final de <i>2022</i> eu resolvi focar, estudar e me dedicar em tempo integral a essa minha paixão e transformá-la em uma carreira. Hoje busco me aperfeiçoar em <b><i>HTML</i></b>, <b><i>CSS</i></b>, <b><i>JAVASCRIPT</i></b> e <b><i>REACT</i></b>, para alcançar um design moderno, rápido e responsivo com essas tecnologias.
           </p>
 
-          <Button name="View CV" nameClass="btn btn-blue" />
+          <section className="btn-area btn-blue">
+            <Button name="View CV" nameClass="btn btn-blue" />
+            <span className="divisor-btn"></span>
+            <div className="social-btn-area">
+              <a href="https://github.com/duhnunes" className="social-icon" target="__blank">
+                <FaGithub />
+              </a>
+            </div>
+          </section>
         </article>
         <img src={photo} alt="DuH Nunes Foto" className="photo" />
       </div>

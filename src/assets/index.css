@@ -70,6 +70,25 @@ img{
   transition:.25s ease-in-out;
 }
 
+.html{
+  color:#e34c26;
+}
+.css{
+  color:#264de4;
+}
+.javascript{
+  color:#f0db4f;
+}
+.react{
+  color:#7cc5d9;
+}
+.git{
+  color:#F1502F;
+}
+.vscode{
+  color:#0078d7;
+}
+
 /* SETTINGS */
 
 .bg-alt{

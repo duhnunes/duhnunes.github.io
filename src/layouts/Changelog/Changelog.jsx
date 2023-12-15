@@ -14,8 +14,9 @@ function Changelog() {
             <li className="title">
               <h2>2.2.1</h2>
             </li>
-            <li className="log-item">Add Button to Back to Top page</li>
             <li className="log-item">Improve design ::marker from Changelog List</li>
+            <li className="log-item">Add Button to Back to Top page</li>
+            <li className="log-item">Add Github Button</li>
           </ul>
           {/* 2.1 */}
           <ul className="log-box">

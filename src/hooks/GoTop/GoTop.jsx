@@ -5,15 +5,15 @@ import './GoTop.css';
 
 const ScrollToTop = () => {
   const [showTopBtn, setShowTopBtn] = useState(false);
-  const btnTop = document.querySelector('.top-btn');
   
   useEffect(() => {
+    const btnTop = document.querySelector('.top-btn');
     window.addEventListener('scroll', () => {
       if (window.scrollY > 20) {
         setShowTopBtn(true);
-        btnTop.style.display = 'block';
+        btnTop.setAttribute('style', 'display:block;');
       } else {
-        btnTop.style.display = 'none';
+        btnTop.removeAttribute('style');
         setShowTopBtn(false);
       }
     });
