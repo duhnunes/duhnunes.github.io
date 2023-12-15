@@ -13,11 +13,12 @@
   transition:.25s ease;
 }
 .btn:hover{
-  transform:scale(.99);
+  transform:scale(.98);
+  color:var(--dh-lgray);
   cursor:pointer;
 }
 .btn:active{
-  transform:scale(.97);
+  transform:scale(.96);
 }
 
 .-btn_carousel{

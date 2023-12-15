@@ -26,7 +26,7 @@ function Summary(){
           </p>
 
           <p className="summary-text">
-          Em <i>2017</i> eu conheci o <b><i>BootStrap</i></b> e utilizei ele para criar alguns sites durante <i>2018</i>, <i>2019</i> e <i>2021</i>. No final de <i>2022</i> eu resolvi focar, estudar e me dedicar em tempo integral a essa minha paixão e transformá-la em uma carreira. Hoje busco me aperfeiçoar em <b><i>HTML</i></b>, <b><i>CSS</i></b>, <b><i>JAVASCRIPT</i></b> e <b><i>REACT</i></b>, para alcançar um design moderno, rápido e responsivo com essas tecnologias.
+          Em <i>2017</i> eu conheci o <b><i>BootStrap</i></b> e utilizei ele para criar alguns sites durante <i>2018</i>, <i>2019</i> e <i>2021</i>. No final de <i>2022</i> eu resolvi focar em estudar e me dedicar em tempo integral a essa minha paixão e transformá-la em uma carreira. Hoje busco me aperfeiçoar em <b><i>HTML</i></b>, <b><i>CSS</i></b>, <b><i>JAVASCRIPT</i></b> e <b><i>REACT</i></b>, para alcançar um design moderno, rápido e responsivo com essas tecnologias.
           </p>
 
           <section className="btn-area btn-blue">

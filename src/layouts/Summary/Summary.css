@@ -124,11 +124,6 @@
   justify-content:center;
   height:100%;
   width:100%;
-  transition:.25s ease;
-}
-.social-btn-area:hover{
-  transform:translate(-1px, 0);
-  opacity:.8;
   cursor:pointer;
 }
 .social-icon{
@@ -137,6 +132,11 @@
   display:flex;
   align-items:center;
   justify-content:center;
+  transition:.25s ease;
+}
+.social-btn-area:hover .social-icon{
+  color:var(--dh-lgray);
+  transform:scale(.95);
 }
 
 

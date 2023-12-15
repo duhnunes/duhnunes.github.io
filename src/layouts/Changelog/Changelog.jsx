@@ -9,6 +9,13 @@ function Changelog() {
       <TitlePage title="Changelog" />
       <div className="container changelog">
         <div className="log-area">
+          {/* 2.3 */}
+          <ul className="log-box">
+            <li className="title">
+              <h2>2.3</h2>
+            </li>
+            <li className="log-item">Change some animations</li>
+          </ul>
           {/* 2.2.1 */}
           <ul className="log-box">
             <li className="title">
@@ -42,6 +49,15 @@ function Changelog() {
             <li className="log-item">Changelog area</li>
           </ul>
           
+          {/* 1.1 */}
+          <ul className="log-box">
+            <li className="title">
+              <h2>1.1</h2>
+            </li>
+            <li className="log-item">Add new content for Protects</li>
+            <li className="log-item">Add Some animations</li>
+            <li className="log-item">Fix for mobile device</li>
+          </ul>
           {/* 1.0 */}
           <ul className="log-box">
             <li className="title">
