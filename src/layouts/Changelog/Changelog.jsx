@@ -17,6 +17,7 @@ function Changelog() {
             <li className="log-item">Improve design ::marker from Changelog List</li>
             <li className="log-item">Add Button to Back to Top page</li>
             <li className="log-item">Add Github Button</li>
+            <li className="log-item">Add Curriculum Vitae Page</li>
           </ul>
           {/* 2.1 */}
           <ul className="log-box">

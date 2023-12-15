@@ -103,7 +103,7 @@ function CurriculumVitae(){
               <section className="cv-exp-title__box">
                 <h2 className="cv-exp-title">Work Experience</h2>
               </section>
-              {/* BODY WORK EXPERIENCE */}
+              {/* WORK 1 */}
               <section className="cv-exp-body">
                 <h3 className="cv-exp-work-title">
                   Auxiliar Geral de Loja
@@ -130,6 +130,7 @@ function CurriculumVitae(){
                   </li>
                 </ul>
               </section>
+              <span className="divisor"></span>
 
             </div>
             {/* EDUCATION */}
@@ -150,6 +151,20 @@ function CurriculumVitae(){
                 <span className="cv-educ-loc">
                   <FaLocationDot />
                   RJ/RJ, Brasil
+                </span>
+              </section>
+              <span className="divisor"></span>
+              {/* EDUC 2 */}
+              <section className="cv-educ-body">
+                <h3 className="cv-educ-exp-title">Desenvolvimento Web</h3>
+                <p className="cv-educ-school">Recode</p>
+                <span className="cv-educ-date">
+                  <FaCalendarAlt />
+                  jul/2023 - set/2023
+                </span>
+                <span className="cv-educ-loc">
+                  <FaLocationDot />
+                  EAD/RJ, Brasil
                 </span>
               </section>
               

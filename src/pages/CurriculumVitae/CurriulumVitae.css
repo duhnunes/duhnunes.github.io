@@ -90,7 +90,7 @@
   color:var(--dh-light);
 }
 .cv-profission{
-  color:var(--dh-warning);
+  color:var(--dh-cyan2);
   font-size:1.6em;
 }
 
@@ -163,6 +163,7 @@
   padding:5px;
   display:flex;
   flex-direction:column;
+  margin-bottom:10px;
 }
 .cv-exp-work-title{
   font-size:1.2em;
@@ -170,7 +171,7 @@
 }
 .cv-exp-brand{
   font-weight:400;
-  color:var(--dh-warning);
+  color:var(--dh-cyan2);
 }
 .cv-exp-loc-area{
   display:flex;
@@ -206,6 +207,7 @@
   display:flex;
   flex-direction:column;
   gap:3px;
+  margin-bottom:10px;
 }
 .cv-educ-exp-title{
   font-weight:400;
@@ -214,7 +216,7 @@
 .cv-educ-school{
   font-weight:600;
   font-size:1.2em;
-  color:var(--dh-warning);
+  color:var(--dh-cyan2);
 }
 .cv-educ-date{
   display:flex;
