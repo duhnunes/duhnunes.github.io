@@ -3,13 +3,13 @@ import PropTypes from 'prop-types';
 
 import './Card.css';
 
-function Card({src, alt}){
+function Card({src}){
   return(
     <article className="card">
       <span className="lines"></span>
-      <figure className="imgBx">
-        <img src={src} alt={alt} className="card-img" />
-      </figure>
+      <div className="imgBx">
+        <img src={src} alt="Card" />
+      </div>
     </article>
   );
 }
@@ -17,6 +17,5 @@ function Card({src, alt}){
 export default Card;
 
 Card.propTypes = {
-  src: PropTypes.string,
-  alt: PropTypes.string
+  src: PropTypes.string
 }.isRequired;

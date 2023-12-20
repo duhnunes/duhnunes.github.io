@@ -15,6 +15,7 @@ function Changelog() {
               <h2>2.3</h2>
             </li>
             <li className="log-item">Change some animations</li>
+            <li className="log-item">Rework Cards from Projects</li>
           </ul>
           {/* 2.2.1 */}
           <ul className="log-box">
