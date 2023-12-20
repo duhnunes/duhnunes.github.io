@@ -215,3 +215,9 @@
     right:70px;
   }
 }
+
+@media only screen and (hover:none) and (pointer: coarse){
+  .photo{
+    display:none;
+  }
+}

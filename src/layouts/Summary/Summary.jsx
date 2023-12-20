@@ -2,19 +2,13 @@ import React from 'react';
 
 import './Summary.css';
 
+import photo from '../../assets/img/loginblur.png';
+
 import Button from '../../Components/Button/Button';
 import TitlePage from '../../Components/TitlePage/TitlePage';
 import { FaGithub } from 'react-icons/fa';
 
 function Summary(){
-
-  const wipStyle = {
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
-    color:'var(--dh-light)',
-    fontSize: '2em'
-  };
 
   return(
     <section className="container">
@@ -46,7 +40,7 @@ function Summary(){
             </div>
           </section>
         </article>
-        <p className="photo" style={wipStyle}>[WIP]</p>
+        <img src={photo} alt="DuH Nunes Photo" className="photo" />
       </div>
     </section>
   );
