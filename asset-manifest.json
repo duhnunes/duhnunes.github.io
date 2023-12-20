@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.216ea9e7.css",
-    "main.js": "/static/js/main.e931c74c.js",
+    "main.css": "/static/css/main.8f41e476.css",
+    "main.js": "/static/js/main.c7b48cd8.js",
     "static/media/loginblur.png": "/static/media/loginblur.a4b719409fa26c386fe7.png",
     "index.html": "/index.html",
-    "main.216ea9e7.css.map": "/static/css/main.216ea9e7.css.map",
-    "main.e931c74c.js.map": "/static/js/main.e931c74c.js.map"
+    "main.8f41e476.css.map": "/static/css/main.8f41e476.css.map",
+    "main.c7b48cd8.js.map": "/static/js/main.c7b48cd8.js.map"
   },
   "entrypoints": [
-    "static/css/main.216ea9e7.css",
-    "static/js/main.e931c74c.js"
+    "static/css/main.8f41e476.css",
+    "static/js/main.c7b48cd8.js"
   ]
 }
