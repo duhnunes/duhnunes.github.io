@@ -85,3 +85,21 @@
     width:90%;
   }
 }
+
+@media only screen and (hover:none) and (pointer: coarse){
+  .nav-text{
+    bottom:-26px;
+    opacity:1;
+  }
+  .nav-icon{
+    transform:translate(0, -15%);
+  }
+  .nav-icon:hover ~ .nav-text{
+    transform:translate(0, -10px);
+    color:var(--dh-blue);
+    text-shadow:0 0 2px var(--dh-white),
+    0 0 3px var(--dh-blue),
+    0 0 4px var(--dh-blue),
+    0 0 5px rgba(13 109 253 / .8);
+  }
+}

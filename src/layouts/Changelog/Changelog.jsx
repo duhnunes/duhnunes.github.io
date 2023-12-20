@@ -9,6 +9,13 @@ function Changelog() {
       <TitlePage title="Changelog" />
       <div className="container changelog">
         <div className="log-area">
+          {/* 2.3.1 */}
+          <ul className="log-box">
+            <li className="title">
+              <h2>2.3.1</h2>
+            </li>
+            <li className="log-item">Change how navbar work in mobile</li>
+          </ul>
           {/* 2.3 */}
           <ul className="log-box">
             <li className="title">
