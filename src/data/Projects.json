@@ -3,7 +3,7 @@
     "id": "001",
     "name": "login",
     "date": "2023",
-    "img": "../img.jpg",
+    "img": "../../img/loginblur.png",
     "alt": "Projeto de login com fundo em Blur"
   },
   {

@@ -15,7 +15,8 @@ function Changelog() {
               <h2>2.3.1</h2>
             </li>
             <li className="log-item">Change how navbar work in mobile</li>
-            <li className="log-item">Change how photo work in mobile</li>
+            <li className="log-item">Change how summary photo work in mobile</li>
+            <li className="log-item">Support for screen widths up to 320px</li>
           </ul>
           {/* 2.3 */}
           <ul className="log-box">
