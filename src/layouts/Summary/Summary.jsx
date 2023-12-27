@@ -2,7 +2,7 @@ import React from 'react';
 
 import './Summary.css';
 
-import photo from '../../assets/img/loginblur.png';
+// import photo from '../../assets/img/loginblur.png';
 
 import Button from '../../Components/Button/Button';
 import TitlePage from '../../Components/TitlePage/TitlePage';
@@ -40,7 +40,7 @@ function Summary(){
             </div>
           </section>
         </article>
-        <img src={photo} alt="DuH Nunes Photo" className="photo" />
+        <img src="" alt="DuH Nunes Photo" className="photo" />
       </div>
     </section>
   );
