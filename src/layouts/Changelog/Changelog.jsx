@@ -18,7 +18,8 @@ function Changelog() {
             <li className="log-item">Fix button goTop click</li>
             <li className="log-item">Optimization General Code</li>
             <li className="log-item">[WIP]Add advanced method with CSS for better support dynamic color changing</li>
-            <li className="log-item">Add Theme-Color Change</li>
+            <li className="log-item">Add Theme-Color Changer</li>
+            <li className="log-item">Remove Cards</li>
           </ul>
           {/* 2.3.1 */}
           <ul className="log-box">
@@ -75,7 +76,7 @@ function Changelog() {
             <li className="title">
               <h2>1.1</h2>
             </li>
-            <li className="log-item">Add new content for Protects</li>
+            <li className="log-item">Add new content for Projects</li>
             <li className="log-item">Add Some animations</li>
             <li className="log-item">Fix for mobile device</li>
           </ul>
