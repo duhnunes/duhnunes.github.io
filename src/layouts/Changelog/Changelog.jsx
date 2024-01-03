@@ -9,6 +9,17 @@ function Changelog() {
       <TitlePage title="Changelog" />
       <div className="container changelog">
         <div className="log-area">
+          {/* 2.4.1 */}
+          <ul className="log-box">
+            <li className="title">
+              <h2>2.4.1</h2>
+            </li>
+            <li className="log-item">Adjusted metric unit for better mobile compatibility</li>
+            <li className="log-item">Fix button goTop click</li>
+            <li className="log-item">Optimization General Code</li>
+            <li className="log-item">[WIP]Add advanced method with CSS for better support dynamic color changing</li>
+            <li className="log-item">Add Theme-Color Change</li>
+          </ul>
           {/* 2.3.1 */}
           <ul className="log-box">
             <li className="title">

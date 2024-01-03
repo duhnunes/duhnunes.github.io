@@ -1,0 +1,62 @@
+.change-color{
+  --_bg:var(--bg, var(--dh-black));
+  
+  
+  position:fixed;
+  left:0;
+  top:0;
+  background-color:var(--dh-white);
+  padding:10px;
+  border-bottom-right-radius:5px;
+  display:flex;
+  align-items:center;
+  box-shadow:0 0 10px 5px rgba(13 109 253 / .6),
+  0 0 14px 4px rgba(0 0 0 / .3) inset;
+}
+.change-color .text-theme{
+  font-size:.875em;
+  font-weight:600;
+  writing-mode:vertical-lr;
+  rotate:180deg;
+  position:relative;
+  left:-10px;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
+}
+.change-color .menu-color{
+  list-style:none;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:space-around;
+}
+.change-color .color-item{
+  width:20px;
+  height:20px;
+  margin-bottom:10px;
+}
+.change-color .color-item > .btn {
+  --_bg:var(--bg, var(--dh-black));
+  
+  padding:0;
+  width:100%;
+  height:100%;
+  background-color:var(--_bg);
+  border-radius:var(--dh-border-round);
+}
+
+/* ===========  COMPONENT TO CHANGE COLORS =========== */
+.th-blue{
+  --bg:var(--dh-blue);
+}
+.th-red{
+  --bg:var(--dh-danger);
+}
+.th-pink{
+  --bg:var(--dh-pink);
+}
+.th-purple{
+  --bg:var(--dh-purple);
+}

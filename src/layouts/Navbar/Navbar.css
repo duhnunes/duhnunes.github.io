@@ -1,4 +1,7 @@
 .navbar{
+  --_text:var(--text, var(--dh-dark));
+  
+  
   background:var(--dh-light);
   max-width:600px;
   width:60%;
@@ -14,7 +17,8 @@
   overflow:hidden;
   transition:.25s ease;
 }
-.navbar>ul{
+
+.navbar .nav-menu{
   list-style:none;
   display:flex;
   justify-content:space-evenly;
@@ -22,7 +26,7 @@
   height:100%;
   width:100%;
 }
-.nav-item{
+.nav-menu .nav-item{
   padding:10px;
   display:flex;
   align-items:center;
@@ -30,19 +34,27 @@
   height:100%;
   width:100%;
 }
-.nav-icon{
+.nav-menu .nav-item .nav-icon{
+  --_icon:var(--icon, var(--dh-dark));
+  
+  
   font-size:2rem;
   position:absolute;
-  color:var(--dh-dgray);
+  color:var(--_icon);
   transition:.25s ease-in-out;
 }
-.nav-icon:hover{
+
+.nav-menu .nav-item .nav-icon:hover{
+  --_hover:var(--hover, var(--dh-blue));
+
+  
   cursor:pointer;
-  color:var(--dh-blue);
+  color:var(--_hover);
   transform:translate(0, -30%);
   -webkit-user-drag:none;
 }
-.nav-text{
+.nav-menu .nav-item .nav-text{
+  color:var(--_text);
   bottom:-50px;
   position:relative;
   text-shadow:0 0 2px var(--dh-black),
@@ -53,21 +65,28 @@
   user-select:none;
   transition:all .25s ease .15s;
 }
-.nav-icon:hover ~ .nav-text{
+.nav-menu .nav-item .nav-icon:hover ~ .nav-text{
   transform:translate(0, -35px);
   opacity:1;
   transition:.25s ease;
 }
+.nav-menu .nav-item .nav-icon .fill-icon{
+  fill:var(--_icon);
+  transition:.25s ease-in-out;
+}
+.nav-menu .nav-item .nav-icon .fill-icon:hover{
+  fill:var(--_hover);
+}
 
 @keyframes shadow{
   0%{
-    box-shadow:0 10px 30px -10px rgba(13 109 253 / .6),
+  box-shadow:0 10px 30px -10px rgba(13 109 253 / .6),
   0 12px 25px -10px rgba(13 109 253 / .3),
   0 14px 20px -10px rgba(13 109 253 / .1),
   0 10px 10px -10px rgba(255 255 255 /.4);
   }
   50%{
-    box-shadow:0 10px 30px -10px rgba(13 109 253 / .3),
+    box-shadow:0 10px 30px -10px rgba(13 109 253 / .2),
   0 12px 25px -10px rgba(13 109 253 / .1),
   0 14px 20px -10px rgba(13 109 253 / .1),
   0 10px 10px -10px rgba(255 255 255 /.2);
@@ -102,4 +121,16 @@
     0 0 4px var(--dh-blue),
     0 0 5px rgba(13 109 253 / .8);
   }
+}
+
+
+/* ===========  COMPONENT TO CHANGE COLORS =========== */
+.-red{
+  --hover:var(--dh-danger);
+}
+.-pink{
+  --hover:var(--dh-pink);
+}
+.-purple{
+  --hover:var(--dh-purple);
 }

@@ -25,13 +25,10 @@ const ScrollToTop = () => {
     });
   };
   return (
-    <span className="btn top-btn">
+    <span className="btn top-btn" onClick={goToTop}>
 
       {showTopBtn && (
-        <FaArrowUp
-          className="btn-gotop"
-          onClick={goToTop}
-        />
+        <FaArrowUp className="btn-gotop" />
       )}
     </span>
   );

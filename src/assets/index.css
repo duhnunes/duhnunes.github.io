@@ -14,17 +14,17 @@
   --dh-white:#fff;
 
     /* Utils */
-  --dh-success:#198754;
-  --dh-warning:#ffc107;
-  --dh-danger:#dc3545;
+  --dh-success:rgb(25, 135, 84);
+  --dh-warning:rgb(255, 193, 7);
+  --dh-danger:rgb(220, 53, 69);
 
   --dh-blue:rgba(13 109 253 / 1);
-  --dh-cyan:#0dcaf0;
-  --dh-cyan2:#61dafb;
-  --dh-teal:#20c997;
-  --dh-indigo:#6610f2;
-  --dh-purple:#6f42c1;
-  --dh-pink:#d63384;
+  --dh-cyan:rgb(13, 202, 240);
+  --dh-cyan2:rgb(97, 218, 251);
+  --dh-teal:rgb(32, 201, 151);
+  --dh-indigo:rgb(102, 16, 242);
+  --dh-purple:rgb(111, 66, 193);
+  --dh-pink:rgb(214, 51, 132);
 
   /* Scale */
   --dh-border-small:5px;

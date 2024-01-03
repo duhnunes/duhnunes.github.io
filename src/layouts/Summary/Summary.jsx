@@ -31,7 +31,7 @@ function Summary(){
           </p>
 
           <section className="btn-area btn-blue">
-            <Button name="View CV" nameClass="btn btn-blue" />
+            <Button name="View CV" nameClass="btn" />
             <span className="divisor-btn"></span>
             <div className="social-btn-area">
               <a href="https://github.com/duhnunes" className="social-icon" target="__blank">
