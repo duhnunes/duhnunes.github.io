@@ -20,6 +20,7 @@ function Changelog() {
             <li className="log-item">[WIP]Add advanced method with CSS for better support dynamic color changing</li>
             <li className="log-item">Add Theme-Color Changer</li>
             <li className="log-item">Remove Cards</li>
+            <li className="log-item">Minor Fix</li>
           </ul>
           {/* 2.3.1 */}
           <ul className="log-box">

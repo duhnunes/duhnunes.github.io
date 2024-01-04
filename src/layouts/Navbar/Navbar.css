@@ -26,7 +26,7 @@
   height:100%;
   width:100%;
 }
-.nav-menu .nav-item{
+.nav-item{
   padding:10px;
   display:flex;
   align-items:center;
@@ -34,7 +34,7 @@
   height:100%;
   width:100%;
 }
-.nav-menu .nav-item .nav-icon{
+.nav-icon{
   --_icon:var(--icon, var(--dh-dark));
   
   
@@ -44,16 +44,17 @@
   transition:.25s ease-in-out;
 }
 
-.nav-menu .nav-item .nav-icon:hover{
+.nav-icon:hover,
+.nav-icon:focus{
   --_hover:var(--hover, var(--dh-blue));
 
   
   cursor:pointer;
   color:var(--_hover);
-  transform:translate(0, -30%);
+  translate:0 -30%;
   -webkit-user-drag:none;
 }
-.nav-menu .nav-item .nav-text{
+.nav-text{
   color:var(--_text);
   bottom:-50px;
   position:relative;
@@ -65,16 +66,16 @@
   user-select:none;
   transition:all .25s ease .15s;
 }
-.nav-menu .nav-item .nav-icon:hover ~ .nav-text{
+.nav-icon:hover ~ .nav-text{
   transform:translate(0, -35px);
   opacity:1;
   transition:.25s ease;
 }
-.nav-menu .nav-item .nav-icon .fill-icon{
+.nav-icon .fill-icon{
   fill:var(--_icon);
   transition:.25s ease-in-out;
 }
-.nav-menu .nav-item .nav-icon .fill-icon:hover{
+.nav-icon .fill-icon:hover{
   fill:var(--_hover);
 }
 
@@ -107,11 +108,16 @@
 
 @media only screen and (hover:none) and (pointer: coarse){
   .nav-text{
-    bottom:-26px;
+    bottom:-14px;
     opacity:1;
   }
   .nav-icon{
-    transform:translate(0, -15%);
+    translate:0 -30%;
+  }
+  .nav-icon:hover,
+  .nav-icon:focus,
+  .nav-icon:active{
+    translate:0 -50%;
   }
   .nav-icon:hover ~ .nav-text{
     transform:translate(0, -10px);

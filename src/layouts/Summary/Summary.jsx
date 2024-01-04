@@ -23,18 +23,18 @@ function Summary(){
           </p>
           
           <p className="summary-text">
-          Eu gostei do que eu estava fazendo com os blogs e resolvi me aprofundar com <b><i>DreamWeaver</i></b>, que possibilitava construir um site e visualizar como ele estava ficando em tempo real. Os anos se passaram e eu fiz alguns sites, mas houve um grande hiato por volta de <i>2009</i> até <i>2016</i>.
+          Eu gostei do que eu estava fazendo com os blogs e resolvi me aprofundar com <b><i>DreamWeaver</i></b>, assim aprendendo a construir a estrutura dos sites, com pastas e arquivos organizados e separados. Os anos se passaram e eu fiz alguns sites, mas houve um grande hiato por volta de <i>2010</i> até <i>2017</i>.
           </p>
 
           <p className="summary-text">
-          Em <i>2017</i> eu conheci o <b><i>BootStrap</i></b> e utilizei ele para criar alguns sites durante <i>2018</i>, <i>2019</i> e <i>2021</i>. No final de <i>2022</i> eu resolvi focar em estudar e me dedicar em tempo integral a essa minha paixão e transformá-la em uma carreira. Hoje busco me aperfeiçoar em <b><i>HTML</i></b>, <b><i>CSS</i></b>, <b><i>JAVASCRIPT</i></b> e <b><i>REACT</i></b>, para alcançar um design moderno, rápido e responsivo com essas tecnologias.
+          Em <i>2018</i> eu conheci o <b><i>BootStrap</i></b> e utilizei ele para criar alguns sites durante <i>2018</i>, <i>2019</i> e <i>2021</i>. No final de <i>2022</i> eu resolvi focar em estudar e me dedicar em tempo integral a essa minha paixão e transformá-la em uma carreira. Hoje busco me aperfeiçoar em <b><i>HTML</i></b>, <b><i>CSS</i></b>*, <b><i>JAVASCRIPT</i></b> e <b><i>REACT</i></b>, para alcançar um design moderno, rápido e responsivo com essas tecnologias.
           </p>
 
           <section className="btn-area btn-blue">
             <Button name="View CV" nameClass="btn" />
             <span className="divisor-btn"></span>
             <div className="social-btn-area">
-              <a href="https://github.com/duhnunes" className="social-icon" target="__blank">
+              <a href="https://github.com/duhnunes" className="social-icon" target="_blank" rel="noopener noreferrer">
                 <FaGithub />
               </a>
             </div>
