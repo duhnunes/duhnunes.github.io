@@ -7,7 +7,7 @@
   justify-content:center;
   width:100%;
   height:100vh;
-  z-index:5;
+  z-index:50;
   background-color:var(--dh-dark);
 }
 .cv-container{
@@ -16,6 +16,7 @@
   max-height: 1122px;
   width: 70%;
   position:relative;
+  transition:.25s;
 }
 
 /* NAVBAR */
@@ -94,6 +95,7 @@
 .cv-profission{
   color:var(--dh-cyan2);
   font-size:1.6em;
+  font-weight:600;
 }
 
 .cv-infos{
@@ -133,6 +135,10 @@
 }
 .linkedin a, .github a, .cv-email a{
   color:var(--dh-cyan2);
+}
+.cv-info-middle-links{
+  display:flex;
+  gap:5px;
 }
 
 .divisor{
@@ -187,9 +193,18 @@
   gap:5px;
   font-weight:500;
 }
-.cv-exp-desc-item{
+.cv-exp-description-work{
   margin-top:10px;
-  margin-left:10px;
+}
+.cv-exp-desc-item{
+  font-size:1.2em;
+}
+.cv-exp-desc-item::first-letter{
+  margin-left:4px;
+}
+.cv-exp-desc-item::marker{
+  content:'•';
+  font-size:1.8em;
 }
 
 .cv-education{
@@ -229,4 +244,51 @@
   display:flex;
   align-items:center;
   gap:5px;
+}
+
+/* MEDIAS TO MOBILE */
+@media (max-width:671px){
+  .cv-container{
+    min-width:0px;
+    width:90%;
+  }
+  /* .cv-title{
+    font-size:1.2em; WITH BUTTONS
+  } */
+  .navbar-curriculum{
+    overflow:visible;
+  }
+  button.cv-close-page{
+    background-color:var(--dh-dgray);
+    font-size:20px;
+    padding:5px;
+    border-top-right-radius:var(--dh-border-medium);
+    border-top-left-radius:var(--dh-border-medium);
+    top:-35px;
+  }
+  .cv-header{
+    flex-direction:column;
+  }
+  .cv-body-title{
+    align-items:center;
+  }
+  .cv-info-middle{
+    flex-direction:column;
+  }
+  .cv-info-middle-links{
+    margin:5px 0;
+  }
+  .cv-exp-title, .cv-educ-title{
+    font-size:1.4em;
+  }
+  .cv-exp-work-title{
+    font-size:.95em;
+  }
+  .cv-exp-loc-area{
+    flex-direction:column;
+    align-items:flex-start;
+  }
+  .cv-exp-desc-item{
+    font-size:1em;
+  }
 }

@@ -83,13 +83,15 @@ function CurriculumVitae({isOpen, setModalOpen}){
                 <FaLocationDot />
                 Niterói - Rio de Janeiro, Brasil
               </span>
-              <div className="linkedin">
-                <FaLinkedin />
-                <a href="https://www.linkedin.com/in/duhnunes/" target="_blank" rel="noreferrer">DuHNunes</a>
-              </div>
-              <div className="github">
-                <FaGithub />
-                <a href="https://github.com/duhnunes" target="_blank" className="github" rel="noreferrer">DuHNunes</a>
+              <div className="cv-info-middle-links">
+                <div className="linkedin">
+                  <FaLinkedin />
+                  <a href="https://www.linkedin.com/in/duhnunes/" target="_blank" rel="noreferrer">DuHNunes</a>
+                </div>
+                <div className="github">
+                  <FaGithub />
+                  <a href="https://github.com/duhnunes" target="_blank" className="github" rel="noreferrer">DuHNunes</a>
+                </div>
               </div>
             </article>
             <span className="divisor"></span>
@@ -165,6 +167,7 @@ function CurriculumVitae({isOpen, setModalOpen}){
                     EAD/RJ, Brasil
                   </span>
                 </section>
+                <span className="divisor"></span>
                 
               </div>
             </article>
