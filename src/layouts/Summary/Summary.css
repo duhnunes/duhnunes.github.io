@@ -289,3 +289,9 @@
     display:none;
   }
 }
+
+@media (hover:none) and (pointer: coarse) and (max-height:400px){
+  .summary__text-area{
+    font-size:0.9em;
+  }
+}

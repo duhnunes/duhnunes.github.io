@@ -1,15 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import './Summary.css';
+import '../../Components/Button/Button.css';
+import photo from '../../assets/img/photo.jpg';
 
-// import photo from '../../assets/img/loginblur.png';
-
-import Button from '../../Components/Button/Button';
 import TitlePage from '../../Components/TitlePage/TitlePage';
 import { FaGithub } from 'react-icons/fa';
+import CurriculumVitae from '../../pages/CurriculumVitae/CurriculumVitae';
 
 function Summary(){
-
+  const [openModal, setOpenModal] = useState(false);
   return(
     <section className="container">
       <TitlePage title="Summary" />
@@ -27,21 +27,25 @@ function Summary(){
           </p>
 
           <p className="summary-text">
-          Em <i>2018</i> eu conheci o <b><i>BootStrap</i></b> e utilizei ele para criar alguns sites durante <i>2018</i>, <i>2019</i> e <i>2021</i>. No final de <i>2022</i> eu resolvi focar em estudar e me dedicar em tempo integral a essa minha paixão e transformá-la em uma carreira. Hoje busco me aperfeiçoar em <b><i>HTML</i></b>, <b><i>CSS</i></b>*, <b><i>JAVASCRIPT</i></b> e <b><i>REACT</i></b>, para alcançar um design moderno, rápido e responsivo com essas tecnologias.
+          Em <i>2017</i> eu conheci o <b><i>BootStrap</i></b> e utilizei ele para criar alguns sites até <i>2021</i>. No final de <i>2022</i> eu resolvi focar em estudar e me dedicar em tempo integral a essa minha paixão e transformá-la em uma carreira. Hoje busco me aperfeiçoar em <b><i>HTML</i></b>, <b><i>CSS</i></b>, <b><i>JAVASCRIPT</i></b> e <b><i>REACT</i></b>, para alcançar um design moderno, rápido e responsivo com essas tecnologias.
           </p>
 
           <section className="btn-area btn-blue">
-            <Button name="View CV" nameClass="btn" />
+            <button type="button" className="btn" onClick={()=> setOpenModal(true)}>View CV</button>
             <span className="divisor-btn"></span>
             <div className="social-btn-area">
-              <a href="https://github.com/duhnunes" className="social-icon" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://github.com/duhnunes" className="social-icon"
+                target="_blank"
+                rel="noopener noreferrer">
                 <FaGithub />
               </a>
             </div>
           </section>
         </article>
-        <img src="" alt="DuH Nunes Photo" className="photo" />
+        <img src={photo} alt="DuH Nunes Photo" className="photo" />
       </div>
+      <CurriculumVitae isOpen={openModal} setModalOpen={() => setOpenModal(!openModal)} />
     </section>
   );
 }

@@ -9,6 +9,16 @@ function Changelog() {
       <TitlePage title="Changelog" />
       <div className="container changelog">
         <div className="log-area">
+          {/* 2.5 */}
+          <ul className="log-box">
+            <li className="title">
+              <h2>2.5</h2>
+            </li>
+            <li className="log-item">Add page to View CV</li>
+            <li className="log-item">Add my Photo</li>
+            <li className="log-item">Fix some inconsistencies in the text</li>
+            <li className="log-item">Try fix text to mobile height</li>
+          </ul>
           {/* 2.4.1 */}
           <ul className="log-box">
             <li className="title">

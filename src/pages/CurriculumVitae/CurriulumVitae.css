@@ -1,23 +1,25 @@
-.show{
-  display:block;
-}
-
 .cv-page{
+  position:absolute;
+  top:0;
+  left:0;
   display:flex;
   align-items:center;
   justify-content:center;
   width:100%;
   height:100vh;
+  z-index:5;
+  background-color:var(--dh-dark);
 }
 .cv-container{
   min-width:500px;
-  max-width:1000px;
-  width:70%;
+  max-width: 793px;
+  max-height: 1122px;
+  width: 70%;
   position:relative;
 }
 
 /* NAVBAR */
-.navbar{
+.navbar-curriculum{
   display:flex;
   align-items:center;
   justify-content:flex-end;
@@ -27,7 +29,7 @@
   padding:20px;
   overflow:hidden;
 }
-.navbar button{
+.navbar-curriculum button{
   background:transparent;
   border:none;
 }
@@ -129,7 +131,7 @@
   align-items:center;
   gap:5px;
 }
-.linkedin a, .github a{
+.linkedin a, .github a, .cv-email a{
   color:var(--dh-cyan2);
 }
 
