@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import PropTypes from 'prop-types';
 
 import './CurriulumVitae.css';
@@ -15,6 +15,9 @@ import { IoMdClose } from 'react-icons/io';
 
 function CurriculumVitae({isOpen, setModalOpen}){
   if(isOpen) {
+    useEffect(()=> {{
+      document.body.style.overflow = 'hidden';
+    }});
     return(
       <section className="cv-page">
         <div className="cv-container">
@@ -176,6 +179,9 @@ function CurriculumVitae({isOpen, setModalOpen}){
       </section>
     );
   }
+  useEffect(()=> {{
+    document.body.removeAttribute('style');
+  }});
   return null;
 }
 

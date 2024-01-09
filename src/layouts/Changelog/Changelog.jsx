@@ -26,6 +26,7 @@ function Changelog() {
             <li className="log-item">Add my Photo</li>
             <li className="log-item">Fix some inconsistencies in the text</li>
             <li className="log-item">Try fix text to mobile height</li>
+            <li className="log-item">Fix scrollbar when Modal opened</li>
           </ul>
           {/* 2.4.1 */}
           <ul className="log-box">
